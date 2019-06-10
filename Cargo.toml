@@ -1,23 +1,12 @@
 [package]
-name = "luminance-glfw"
+name = "luminance-glfw-custom"
 version = "0.5.4"
 license = "BSD-3-Clause"
 authors = ["Dimitri Sabadie <dimitri.sabadie@gmail.com>"]
-description = "GLFW support for luminance"
-keywords = ["stateless", "type-safe", "graphics", "luminance", "glfw"]
-categories = ["rendering::graphics-api"]
-homepage = "https://github.com/phaazon/luminance"
-repository = "https://github.com/phaazon/luminance"
-documentation = "https://docs.rs/luminance-glfw"
-
-[badges]
-travis-ci = { repository = "phaazon/luminance", branch = "master" }
-is-it-maintained-issue-resolution = { repository = "phaazon/luminance" }
-is-it-maintained-open-issues = { repository = "phaazon/luminance" }
-maintenance = { status = "actively-developed" }
+description = "(twetzel59's slight modification of) GLFW support for luminance"
 
 [dependencies]
 gl = "0.10"
 glfw = "0.23"
-luminance = { version = "0.30", path = "../luminance" }
-luminance-windowing = { version = "0.2", path = "../luminance-windowing" }
+luminance = { version = "0.30", git = "https://github.com/phaazon/luminance-rs" }
+luminance-windowing = { version = "0.2", git = "https://github.com/phaazon/luminance-rs" }
