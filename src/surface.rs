@@ -35,6 +35,16 @@ unsafe impl GraphicsContext for GlfwSurface {
   }
 }
 
+impl GlfwSurface {
+  pub fn lib_handle(&self) -> &Window {
+    &self.window
+  }
+
+  pub fn lib_handle_mut(&mut self) -> &mut Window {
+    &mut self.window
+  }
+}
+
 impl Surface for GlfwSurface {
   type Error = GlfwSurfaceError;
   type Event = WindowEvent;

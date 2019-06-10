@@ -1,4 +1,4 @@
-# luminance-glfw
+# luminance-glfw-custom
 
 ## Legal Notice
 
