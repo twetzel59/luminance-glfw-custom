@@ -6,7 +6,7 @@ This repository is free and open source software. It is a **derivative work not 
 
 ## What this is
 
-*NOTE*: This is almost entirely the work of [phazzon](https://github.com/phaazon), not me.
+*NOTE*: This is almost entirely the work of [phaazon](https://github.com/phaazon), not me.
 This is a *partial fork* of: https://github.com/phaazon/luminance-rs.
 
 Originally, I had forked ``luminance-glfw`` when it was its own crate. phaazon later reorganized the structure of the ``luminance-rs`` repository to be a ``workspace`` containing ``luminance-glfw`` as one of its library crates. I've downloaded the files I needed from that crate within the workspace.
